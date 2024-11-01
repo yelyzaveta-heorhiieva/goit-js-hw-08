@@ -1,0 +1,37 @@
+body {
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 24px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left: 0;
+  width: 1128px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.gallery-link {
+  cursor: url('../Vector.svg'), pointer;
+}
+
+.gallery-image:hover {
+  transform: scale(1.04);
+}
